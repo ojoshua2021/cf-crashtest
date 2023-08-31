@@ -1,0 +1,6 @@
+applications:
+- name: cf-crashtest
+  memory: 1G
+  health-check-type: port
+  buildpack: binary_buildpack
+  random-route: true
